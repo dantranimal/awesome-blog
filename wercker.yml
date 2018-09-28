@@ -1,8 +1,8 @@
 box: ubuntu
 build:
   steps:
-    - arjen/hugo-build@1.14.1:
-        version: "0.48" 
+    - arjen/hugo-build:
+        version: "0.49" 
         theme: hugo-theme-learn
         flags: --buildDrafts=false --noTimes
 deploy:
