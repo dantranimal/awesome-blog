@@ -2,9 +2,9 @@ box: ubuntu
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.49" 
+        version: "0.48" 
         theme: hugo-theme-learn
-        flags: --buildDrafts=false --noTimes
+        flags: --buildDrafts=true #false --noTimes
 deploy:
     steps:
         - install-packages:
