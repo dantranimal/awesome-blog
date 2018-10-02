@@ -4,7 +4,7 @@ build:
     - arjen/hugo-build:
         version: "0.48" 
         theme: hugo-theme-learn
-        flags: --buildDrafts=true #false --noTimes
+        flags: --buildDrafts=false --noTimes
 deploy:
     steps:
         - install-packages:
